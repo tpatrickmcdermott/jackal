@@ -17,15 +17,15 @@ url: "https://tpatrickmcdermott.github.io"
 
 To run the site locally, run:
 
-```bash
-jekyll serve --config _config.yml,_config_dev.yml
+```
+  jekyll serve --config _config.yml,_config_dev.yml
 ```
 
 ### Push to Github
 
 Add the repository
-```bash
-git remote add origin https://github.com/tpatrickmcdermott/jackal.git
+```
+  git remote add origin https://github.com/tpatrickmcdermott/jackal.git
 ```
 
 Ensures that you're on the gh-pages branch, not master.
@@ -41,4 +41,9 @@ track all  files
 commit all files
 ```
   git commit -am "Initial commit"
+```
+
+```
+  Push all files to gh-branch
+  git push origin gh-pages
 ```
