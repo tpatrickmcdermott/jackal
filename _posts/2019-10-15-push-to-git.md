@@ -43,7 +43,7 @@ commit all files
   git commit -am "Initial commit"
 ```
 
+Push all files to gh-branch
 ```
-  Push all files to gh-branch
   git push origin gh-pages
 ```
