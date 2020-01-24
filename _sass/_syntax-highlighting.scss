@@ -1,9 +1,11 @@
 /**
  * Syntax highlighting styles (custom)
  */
+div.highlight {
+  background: #dedede;
+}
 .highlight {
-    background: #bcc8d4;
-    padding: 1em;
+    background: #fff;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
